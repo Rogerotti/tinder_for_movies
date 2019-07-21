@@ -1,0 +1,11 @@
+.movie-title {
+  display: block;
+  width: 95vw;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 3vh;
+}

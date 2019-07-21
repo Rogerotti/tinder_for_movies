@@ -1,0 +1,12 @@
+
+.image-panel {
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+  height: 60vh;
+  box-shadow: 10px 10px 18px #888888;
+}
+
+.image-panel:hover {
+  cursor: pointer;
+}

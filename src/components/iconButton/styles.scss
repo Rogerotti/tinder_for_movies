@@ -1,0 +1,13 @@
+.icon-button {
+  display: inline-flex;
+  font-size: 5vmin;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+  img:hover {
+    cursor: pointer;
+  };
+}

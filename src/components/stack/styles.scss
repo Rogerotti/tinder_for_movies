@@ -1,0 +1,26 @@
+.stack {
+  height: 100%;
+
+  .stack-panel {
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .button-panel {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+}
+
+.react-tooltip-lite {
+  background: #333;
+  color: white;
+}
+
+.target {
+  text-decoration: underline;
+  cursor: pointer;
+}
