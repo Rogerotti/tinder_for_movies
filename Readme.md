@@ -5,5 +5,5 @@ Uruchomienie aplikacji:
 - Strona będzie dostępna pod adresem localhost:7000
 
 Lub
-- Uruchomić z wiersza poleceń komende docker-compose up
+- W głownym katalogu projektu uruchomić z wiersza poleceń komende docker-compose up
 - Wejść na adres localhost
