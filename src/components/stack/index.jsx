@@ -92,7 +92,7 @@ class Stack extends React.Component {
   getRefreshStateButtonPanel = () => {
     return (
       <div className="button-panel">
-        <IconButton icon={'src/images/refresh.svg'} onClick={() => this.props.onRefresh()} />
+        <IconButton icon={'refreshIcon'} onClick={() => this.props.onRefresh()} />
       </div>
     );
   }
@@ -101,13 +101,13 @@ class Stack extends React.Component {
     return (
       <div className="button-panel">
         <Margin marginRight={10} unit={'vw'}>
-          <IconButton icon={'src/images/checked.svg'} onClick={() => this.props.onAdd(this.props.movies[0].id)} />
+          <IconButton icon={'checkIcon'} onClick={() => this.props.onAdd(this.props.movies[0].id)} />
         </Margin>
         <Tooltip className="target" arrow={false} content={this.props.movies[0].summary ? this.props.movies[0].summary : ''} direction="down" eventOn="onClick" eventOff="onMouseOut" >
-          <IconButton icon={'src/images/info.svg'} />
+          <IconButton icon={'infoIcon'} />
         </Tooltip>
         <Margin marginLeft={10} unit={'vw'}>
-          <IconButton icon={'src/images/reject.svg'} onClick={() => this.props.onDelete(this.props.movies[0].id)} />
+          <IconButton icon={'rejectIcon'} onClick={() => this.props.onDelete(this.props.movies[0].id)} />
         </Margin>
       </div>
     );

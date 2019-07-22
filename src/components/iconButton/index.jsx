@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { getIcon } from 'src/icons/iconResolver';
 import './styles.scss';
 
 const IconButton = (props) => {
-  const image = props.icon ? (<img src={props.icon} alt={props.text} />) : undefined;
+  const Icon = getIcon(props.icon);
 
   return (
     <div className={'icon-button'} onClick={props.onClick}>
-      {image}
+      <Icon />
       {props.text}
     </div>
   );

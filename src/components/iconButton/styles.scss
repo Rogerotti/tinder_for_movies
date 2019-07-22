@@ -2,12 +2,12 @@
   display: inline-flex;
   font-size: 5vmin;
 
-  img {
+  svg {
     width: 30px;
     height: 30px;
   }
 
-  img:hover {
+  svg:hover {
     cursor: pointer;
   };
 }

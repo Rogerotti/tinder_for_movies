@@ -1,24 +1,15 @@
 /* eslint-disable */
-const HtmlWebPackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const HtmlWebPackPlugin = require('html-webpack-plugin');
 const htmlWebPackPlugin = new HtmlWebPackPlugin({
   template: './src/index.html',
   filename: './index.html'
 });
 
 module.exports = {
-    watch: true,
-    entry: 
-    {
-        app: './src/app.js',
+    entry: {
+      app: './src/app.js',
         
-    },
-    mode: 'development',
-    devtool: 'inline-source-map',
-    devServer: {
-        port: 7000,
-        open: true,
-        hot: true,
     },
     output: {
         filename: 'bundle.js',
@@ -63,6 +54,9 @@ module.exports = {
         },
         ],
     },
+    plugins: [
+      
+    ],
     plugins: [htmlWebPackPlugin],
     resolve: {
         alias: {
