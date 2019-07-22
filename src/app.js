@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppContainer from 'components/appcontainer';
+import AppContainer from 'components/appContainer';
 import { IntlProvider, addLocaleData } from 'react-intl';
 import messagesPl from 'l10n/pl.json';
 import messagesEn from 'l10n/en.json';

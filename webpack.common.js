@@ -54,9 +54,6 @@ module.exports = {
         },
         ],
     },
-    plugins: [
-      
-    ],
     plugins: [htmlWebPackPlugin],
     resolve: {
         alias: {
